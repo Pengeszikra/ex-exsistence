@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["unused-imports", "react", "react-hooks"],
+  "rules": {
+    "unused-imports/no-unused-imports": "warn",
+    "unused-imports/no-unused-vars": [
+        "warn",
+        { "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
+    ],
+    "react/jsx-uses-vars": "warn",
+    "react/jsx-uses-react": "warn"
+  }
+}
